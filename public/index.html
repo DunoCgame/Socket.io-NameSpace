@@ -1,0 +1,24 @@
+<html>
+	<head>
+	  <title>SokectIo-Express</title>
+	  <link rel="stylesheet" href="/stylesheets/style.css">
+	</head>
+	<body>
+	
+		<div id="chat-container">
+			<!-- user and message -->
+			<input id="username" type="text" placeholder="username">
+			<button id="send">Send</button>
+			<button id="delete">Delete</button>
+			
+			<div id="chat-window">
+			  <div id="output"></div>
+			</div>
+		
+		</div>
+	
+	</body>
+	 <!--socket.io -->  
+	 <script src="/socket.io/socket.io.js"></script>
+	 <script src="/javascripts/chat.js"></script>
+</html>
